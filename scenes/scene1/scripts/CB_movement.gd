@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
 
-const SPEED = 300.0
-const ACCEL = 40
+const MAXSPEED = 300.0
+const ACCEL = 60
 const FRICTION_COEFF = .1
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
